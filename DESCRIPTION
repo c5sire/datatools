@@ -1,0 +1,12 @@
+Package: datatools
+Title: Tools for Data Analysis
+Version: 0.0.0.9000
+Authors@R: person("Reinhard", "Simon", 
+  email = "R.SIMON@CGIAR.ORG", role = c("aut", "cre"))
+Description: Provides a function to create askeleton for a data analysis project.
+Depends:
+    R (>= 3.3.1)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
