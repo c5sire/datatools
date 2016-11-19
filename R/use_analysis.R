@@ -5,6 +5,7 @@
 #'
 #' @param project_name character; defaults to current directory
 #' @author Reinhard Simon
+#' @example inst/examples/use_analysis.R
 #' @export
 use_analysis <- function(project_name = ".") {
 
@@ -33,7 +34,6 @@ use_analysis <- function(project_name = ".") {
     }
     )
   }
-
 
   # Helper function to safely create files
   use_file <- function(afile = "README.md",

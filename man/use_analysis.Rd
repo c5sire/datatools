@@ -12,6 +12,15 @@ use_analysis(project_name = ".")
 \description{
 Creates a project skeleton for data analysis.
 }
+\examples{
+# Example
+
+
+try({
+  datatools::use_analysis(tempdir())
+})
+
+}
 \author{
 Reinhard Simon
 }
